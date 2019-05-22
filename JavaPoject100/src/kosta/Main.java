@@ -9,6 +9,7 @@ public class Main {
 		//name print add park 1111
 		for(String name : names){
 			System.out.print(name + ", ");
+			System.out.println("aa");
 		}
 	}
 
