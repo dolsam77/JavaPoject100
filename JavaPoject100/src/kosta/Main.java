@@ -6,11 +6,10 @@ public class Main {
 		
 		String names[] = {"kim", "lee", "seo", "park"};
 		
-		//name print add park 
-		for(int i=0;i<names.length;i++){
-			System.out.print(names[i] +  ", ");
+		//name print add park
+		for(String name : names){
+			System.out.print(name + ", ");
 		}
-
 	}
 
 }
